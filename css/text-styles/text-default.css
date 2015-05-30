@@ -1,0 +1,16 @@
+#reader { /*Свойства всего текста в формате CSS*/
+	background-color: rgba(170, 200, 90, 1); /*Цвет фона в формате RGB и alpha*/
+	padding: 15px 150px; /*Отступ сверху-снизу и слева-справа*/
+	text-align: justify; /*Выравнивание текста*/
+	color: rgba(30, 40, 50, 1);/*Цвет текста*/
+	font-size: 1em;/*Размер шрифта*/
+}
+
+p {
+  text-indent: 20px; /* Отступ первой строки в пикселах */
+  text-transform: capitalize; /*Первая буква всегда заглавная*/
+}
+
+p:first-letter {
+    color: red; /* Цвет первой буквы */
+}

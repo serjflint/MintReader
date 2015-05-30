@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+html{
+  background: #eee;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+body{
+  font: 14px/1.5 Arial, Helvetica, sans-serif;
+  color:#fff;
+}
+
+a, a:visited, a:hover{
+  color:#fff;
+  text-decoration: none;
+}
+
+#Menu {
+  background-color: rgba(30, 40, 50, 1);   
+  width: 100%;
+  height: 5vh;
+}
+
+.menu-btn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  padding: 1vh;
+  display: inline-block;
+}
+
+.menu-btn img {
+  height: 3vh;
+  width: 3vh;
+}
+
+#return-btn {
+  float: left;
+}
+
+#block-text {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 95vh;
+  width: 100%;
+  top: 5vh;
+}
+
+#editCSS {
+  height: 42vh;
+  margin: 2vh;
+  padding: 2vh;
+}
+
+#example {
+  height: 42vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  border: 1px solid black;
+  padding: 2vh;
+  overflow: auto;
+}
+
+#block-btn {
+  display: flex;
+  justify-content: space-between;
+  height: 5vh;
+  width: 100%;
+  margin-top: 2vh;
+}
+
+#block-btn button {
+  width: 30vw;
+  height: 3vh;
+  font-size: 2vh;
+}
+
+#apply-btn {
+  margin-left: 2vh;
+}
+
+#default-btn {
+  margin-right: 2vh;
+}

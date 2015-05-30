@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Options</title>
+
+	<link rel="stylesheet" href="../css/options.css">
+	<link rel="stylesheet" href="../css/text-styles/option-text.css">
+
+	<script src="../js/lib/jquery-2.1.3.min.js"></script>
+	<script src="../js/lib/jquery.hotkeys.js"></script>
+	<script src="../js/options.js"></script>
+
+</head>
+<body>
+
+	<input id="open" type="file" style="display:none" accept="text/*"/>
+	<input id="save" type="file" nwsaveas style="display:none" accept="text/*"/>
+
+	<div id="Menu">
+		<button class="menu-btn" id="return-btn" type="button">
+			<a id='options-link' href='../html/read.html' target="_self">
+				<img id="return-img" src="../sources/back_white_512.png" alt="Return"/>
+			</a>
+		</button>
+	</div>
+
+	<div id="block-text">
+		<textarea id="editCSS"></textarea>
+		<div id="example">
+			<div id="reader">
+			</div>
+		</div>
+		<div id="block-btn">
+			<button type="button" id="apply-btn">Apply</btn>
+			<button type="button" id="save-btn">Save</btn>
+			<button type="button" id="default-btn">Default</btn>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
